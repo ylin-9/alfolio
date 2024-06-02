@@ -3,7 +3,7 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
+      - gh-pages
       - main
     paths:
       - "assets/**"
@@ -29,7 +29,7 @@ on:
       - "!README.md"
   pull_request:
     branches:
-      - master
+      - gh-pages
       - main
     paths:
       - "assets/**"
